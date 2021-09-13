@@ -1,3 +1,4 @@
 pass ip 157.240.28.9/32 any <> 171.33.38.12/32 any (msg:"pass"; sid:50013460;
 pass ip 157.240.18.26/32 any <> 171.33.38.12/32 any (msg:"pass"; sid:50013480;
 pass ip 17.0.0.0/8 any <> any any (msg:"pass"; sid:50013402;
+pass ip any 51820 <> 174.33.34.0/24 any (msg:"pass"; sid:50013406;
